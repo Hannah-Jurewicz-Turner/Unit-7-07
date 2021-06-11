@@ -11,7 +11,7 @@ function calculate () {
   secondNum = document.getElementById('second').value
   secondNum = parseInt(secondNum)
 
-  //
+  // Makes it so the counter keeps looping until we get the correct product.
   for (counter = 0; counter < firstNum; counter++) {
     answer = answer + secondNum
   }
